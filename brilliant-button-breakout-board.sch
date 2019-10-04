@@ -1,0 +1,264 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R2
+U 1 1 5D97601D
+P 3650 2500
+F 0 "R2" V 3443 2500 50  0000 C CNN
+F 1 "10k" V 3534 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 2500 50  0001 C CNN
+F 3 "~" H 3650 2500 50  0001 C CNN
+	1    3650 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5D97628C
+P 4200 2500
+F 0 "SW2" H 4200 2785 50  0000 C CNN
+F 1 "SW_Push" H 4200 2694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4200 2700 50  0001 C CNN
+F 3 "" H 4200 2700 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2500 3900 2500
+Wire Wire Line
+	3900 3100 3900 2500
+Connection ~ 3900 2500
+Wire Wire Line
+	3900 2500 4000 2500
+$Comp
+L Connector_Generic:Conn_01x03 J2
+U 1 1 5D977BAC
+P 3900 3300
+F 0 "J2" V 3773 3112 50  0000 R CNN
+F 1 "Conn_01x03" V 3864 3112 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3900 3300 50  0001 C CNN
+F 3 "~" H 3900 3300 50  0001 C CNN
+	1    3900 3300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 2500 3400 2500
+Wire Wire Line
+	3400 2500 3400 3000
+Wire Wire Line
+	3400 3000 3800 3000
+Wire Wire Line
+	3800 3000 3800 3100
+Wire Wire Line
+	4000 3100 4000 3000
+Wire Wire Line
+	4000 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 2500
+Wire Wire Line
+	4500 2500 4400 2500
+$Comp
+L Device:R R3
+U 1 1 5D97873B
+P 3650 3700
+F 0 "R3" V 3443 3700 50  0000 C CNN
+F 1 "10k" V 3534 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 3700 50  0001 C CNN
+F 3 "~" H 3650 3700 50  0001 C CNN
+	1    3650 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5D978741
+P 4200 3700
+F 0 "SW3" H 4200 3985 50  0000 C CNN
+F 1 "SW_Push" H 4200 3894 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4200 3900 50  0001 C CNN
+F 3 "" H 4200 3900 50  0001 C CNN
+	1    4200 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 3700 3900 3700
+Wire Wire Line
+	3900 4300 3900 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	3900 3700 4000 3700
+$Comp
+L Connector_Generic:Conn_01x03 J3
+U 1 1 5D97874B
+P 3900 4500
+F 0 "J3" V 3773 4312 50  0000 R CNN
+F 1 "Conn_01x03" V 3864 4312 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3900 4500 50  0001 C CNN
+F 3 "~" H 3900 4500 50  0001 C CNN
+	1    3900 4500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 3700 3400 3700
+Wire Wire Line
+	3400 3700 3400 4200
+Wire Wire Line
+	3400 4200 3800 4200
+Wire Wire Line
+	3800 4200 3800 4300
+Wire Wire Line
+	4000 4300 4000 4200
+Wire Wire Line
+	4000 4200 4500 4200
+Wire Wire Line
+	4500 4200 4500 3700
+Wire Wire Line
+	4500 3700 4400 3700
+$Comp
+L Device:R R1
+U 1 1 5D978BE6
+P 3650 1250
+F 0 "R1" V 3443 1250 50  0000 C CNN
+F 1 "10k" V 3534 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 1250 50  0001 C CNN
+F 3 "~" H 3650 1250 50  0001 C CNN
+	1    3650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D978BEC
+P 4200 1250
+F 0 "SW1" H 4200 1535 50  0000 C CNN
+F 1 "SW_Push" H 4200 1444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4200 1450 50  0001 C CNN
+F 3 "" H 4200 1450 50  0001 C CNN
+	1    4200 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1250 3900 1250
+Wire Wire Line
+	3900 1850 3900 1250
+Connection ~ 3900 1250
+Wire Wire Line
+	3900 1250 4000 1250
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5D978BF6
+P 3900 2050
+F 0 "J1" V 3773 1862 50  0000 R CNN
+F 1 "Conn_01x03" V 3864 1862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3900 2050 50  0001 C CNN
+F 3 "~" H 3900 2050 50  0001 C CNN
+	1    3900 2050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 1250 3400 1250
+Wire Wire Line
+	3400 1250 3400 1750
+Wire Wire Line
+	3400 1750 3800 1750
+Wire Wire Line
+	3800 1750 3800 1850
+Wire Wire Line
+	4000 1850 4000 1750
+Wire Wire Line
+	4000 1750 4500 1750
+Wire Wire Line
+	4500 1750 4500 1250
+Wire Wire Line
+	4500 1250 4400 1250
+$Comp
+L Device:R R4
+U 1 1 5D9799CE
+P 3650 4900
+F 0 "R4" V 3443 4900 50  0000 C CNN
+F 1 "10k" V 3534 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3580 4900 50  0001 C CNN
+F 3 "~" H 3650 4900 50  0001 C CNN
+	1    3650 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5D9799D4
+P 4200 4900
+F 0 "SW4" H 4200 5185 50  0000 C CNN
+F 1 "SW_Push" H 4200 5094 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H4.3mm" H 4200 5100 50  0001 C CNN
+F 3 "" H 4200 5100 50  0001 C CNN
+	1    4200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4900 3900 4900
+Wire Wire Line
+	3900 5500 3900 4900
+Connection ~ 3900 4900
+Wire Wire Line
+	3900 4900 4000 4900
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5D9799DE
+P 3900 5700
+F 0 "J4" V 3773 5512 50  0000 R CNN
+F 1 "Conn_01x03" V 3864 5512 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3900 5700 50  0001 C CNN
+F 3 "~" H 3900 5700 50  0001 C CNN
+	1    3900 5700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3500 4900 3400 4900
+Wire Wire Line
+	3400 4900 3400 5400
+Wire Wire Line
+	3400 5400 3800 5400
+Wire Wire Line
+	3800 5400 3800 5500
+Wire Wire Line
+	4000 5500 4000 5400
+Wire Wire Line
+	4000 5400 4500 5400
+Wire Wire Line
+	4500 5400 4500 4900
+Wire Wire Line
+	4500 4900 4400 4900
+Wire Wire Line
+	3400 1750 3400 2500
+Connection ~ 3400 1750
+Connection ~ 3400 2500
+Wire Wire Line
+	3400 3000 3400 3700
+Connection ~ 3400 3000
+Connection ~ 3400 3700
+Wire Wire Line
+	3400 4900 3400 4200
+Connection ~ 3400 4900
+Connection ~ 3400 4200
+Wire Wire Line
+	4500 4900 4500 4200
+Connection ~ 4500 4900
+Connection ~ 4500 4200
+Wire Wire Line
+	4500 3000 4500 3700
+Connection ~ 4500 3000
+Connection ~ 4500 3700
+Wire Wire Line
+	4500 1750 4500 2500
+Connection ~ 4500 1750
+Connection ~ 4500 2500
+$EndSCHEMATC
