@@ -38,7 +38,7 @@ $EndComp
 Wire Wire Line
 	3800 2500 3900 2500
 Wire Wire Line
-	3900 3100 3900 2500
+	3900 3100 3900 2750
 Connection ~ 3900 2500
 Wire Wire Line
 	3900 2500 4000 2500
@@ -56,7 +56,7 @@ $EndComp
 Wire Wire Line
 	3500 2500 3400 2500
 Wire Wire Line
-	3400 2500 3400 3000
+	3400 2500 3400 2750
 Wire Wire Line
 	3400 3000 3800 3000
 Wire Wire Line
@@ -66,7 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3000 4500 3000
 Wire Wire Line
-	4500 3000 4500 2500
+	4500 3000 4500 2750
 Wire Wire Line
 	4500 2500 4400 2500
 $Comp
@@ -94,7 +94,7 @@ $EndComp
 Wire Wire Line
 	3800 3700 3900 3700
 Wire Wire Line
-	3900 4300 3900 3700
+	3900 4300 3900 3950
 Connection ~ 3900 3700
 Wire Wire Line
 	3900 3700 4000 3700
@@ -112,7 +112,7 @@ $EndComp
 Wire Wire Line
 	3500 3700 3400 3700
 Wire Wire Line
-	3400 3700 3400 4200
+	3400 3700 3400 3950
 Wire Wire Line
 	3400 4200 3800 4200
 Wire Wire Line
@@ -122,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4200 4500 4200
 Wire Wire Line
-	4500 4200 4500 3700
+	4500 4200 4500 3950
 Wire Wire Line
 	4500 3700 4400 3700
 $Comp
@@ -150,7 +150,7 @@ $EndComp
 Wire Wire Line
 	3800 1250 3900 1250
 Wire Wire Line
-	3900 1850 3900 1250
+	3900 1850 3900 1500
 Connection ~ 3900 1250
 Wire Wire Line
 	3900 1250 4000 1250
@@ -168,7 +168,7 @@ $EndComp
 Wire Wire Line
 	3500 1250 3400 1250
 Wire Wire Line
-	3400 1250 3400 1750
+	3400 1250 3400 1500
 Wire Wire Line
 	3400 1750 3800 1750
 Wire Wire Line
@@ -178,7 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 1750 4500 1750
 Wire Wire Line
-	4500 1750 4500 1250
+	4500 1750 4500 1500
 Wire Wire Line
 	4500 1250 4400 1250
 $Comp
@@ -206,7 +206,7 @@ $EndComp
 Wire Wire Line
 	3800 4900 3900 4900
 Wire Wire Line
-	3900 5500 3900 4900
+	3900 5500 3900 5150
 Connection ~ 3900 4900
 Wire Wire Line
 	3900 4900 4000 4900
@@ -224,7 +224,7 @@ $EndComp
 Wire Wire Line
 	3500 4900 3400 4900
 Wire Wire Line
-	3400 4900 3400 5400
+	3400 4900 3400 5150
 Wire Wire Line
 	3400 5400 3800 5400
 Wire Wire Line
@@ -234,7 +234,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 5400 4500 5400
 Wire Wire Line
-	4500 5400 4500 4900
+	4500 5400 4500 5150
 Wire Wire Line
 	4500 4900 4400 4900
 Wire Wire Line
@@ -261,4 +261,160 @@ Wire Wire Line
 	4500 1750 4500 2500
 Connection ~ 4500 1750
 Connection ~ 4500 2500
+$Comp
+L Device:C C2
+U 1 1 5D984202
+P 4200 1500
+F 0 "C2" V 4100 1350 50  0000 C CNN
+F 1 "C" V 4100 1600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 1350 50  0001 C CNN
+F 3 "~" H 4200 1500 50  0001 C CNN
+	1    4200 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D98590A
+P 3650 1500
+F 0 "C1" V 3550 1350 50  0000 C CNN
+F 1 "C" V 3550 1600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 1350 50  0001 C CNN
+F 3 "~" H 3650 1500 50  0001 C CNN
+	1    3650 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D986793
+P 3650 2750
+F 0 "C3" V 3550 2600 50  0000 C CNN
+F 1 "C" V 3550 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 2600 50  0001 C CNN
+F 3 "~" H 3650 2750 50  0001 C CNN
+	1    3650 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D98691D
+P 4200 2750
+F 0 "C4" V 4100 2600 50  0000 C CNN
+F 1 "C" V 4100 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 2600 50  0001 C CNN
+F 3 "~" H 4200 2750 50  0001 C CNN
+	1    4200 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5D986D06
+P 3650 3950
+F 0 "C5" V 3550 3800 50  0000 C CNN
+F 1 "C" V 3550 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 3800 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+	1    3650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5D987B11
+P 4200 3950
+F 0 "C6" V 4100 3800 50  0000 C CNN
+F 1 "C" V 4100 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 3800 50  0001 C CNN
+F 3 "~" H 4200 3950 50  0001 C CNN
+	1    4200 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5D987C4C
+P 4200 5150
+F 0 "C8" V 4100 5000 50  0000 C CNN
+F 1 "C" V 4100 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4238 5000 50  0001 C CNN
+F 3 "~" H 4200 5150 50  0001 C CNN
+	1    4200 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5D987D83
+P 3650 5150
+F 0 "C7" V 3550 5000 50  0000 C CNN
+F 1 "C" V 3550 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3688 5000 50  0001 C CNN
+F 3 "~" H 3650 5150 50  0001 C CNN
+	1    3650 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 5150 3400 5150
+Connection ~ 3400 5150
+Wire Wire Line
+	3400 5150 3400 5400
+Wire Wire Line
+	3800 5150 3900 5150
+Connection ~ 3900 5150
+Wire Wire Line
+	3900 5150 3900 4900
+Wire Wire Line
+	3900 5150 4050 5150
+Wire Wire Line
+	4350 5150 4500 5150
+Connection ~ 4500 5150
+Wire Wire Line
+	4500 5150 4500 4900
+Wire Wire Line
+	4350 3950 4500 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	4500 3950 4500 3700
+Wire Wire Line
+	3800 3950 3900 3950
+Connection ~ 3900 3950
+Wire Wire Line
+	3900 3950 3900 3700
+Wire Wire Line
+	4050 3950 3900 3950
+Wire Wire Line
+	3500 3950 3400 3950
+Connection ~ 3400 3950
+Wire Wire Line
+	3400 3950 3400 4200
+Wire Wire Line
+	3400 2750 3500 2750
+Connection ~ 3400 2750
+Wire Wire Line
+	3400 2750 3400 3000
+Wire Wire Line
+	3800 2750 3900 2750
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2750 3900 2500
+Wire Wire Line
+	4050 2750 3900 2750
+Wire Wire Line
+	4350 2750 4500 2750
+Connection ~ 4500 2750
+Wire Wire Line
+	4500 2750 4500 2500
+Wire Wire Line
+	3400 1500 3500 1500
+Connection ~ 3400 1500
+Wire Wire Line
+	3400 1500 3400 1750
+Wire Wire Line
+	3800 1500 3900 1500
+Connection ~ 3900 1500
+Wire Wire Line
+	3900 1500 3900 1250
+Wire Wire Line
+	3900 1500 4050 1500
+Wire Wire Line
+	4350 1500 4500 1500
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4500 1250
 $EndSCHEMATC
